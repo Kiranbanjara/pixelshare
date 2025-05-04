@@ -4,7 +4,7 @@ import "./index.css"
 import App from "./App"
 import axios from "axios"
 
-axios.defaults.baseURL = process.env.REACT_APP_API_URL || "http://localhost:5000"
+axios.defaults.baseURL = "https://pixelshare-backend-aqfse0aua2e4cmg9.uksouth-01.azurewebsites.net/"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
